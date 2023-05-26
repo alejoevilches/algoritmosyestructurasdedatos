@@ -4,7 +4,7 @@ int main(){
     float n, parcial, promedio;
     parcial=0;
     for (int i=1; i<=50;i++){
-        cout << "Ingresa el numero " << i;
+        cout << "Ingresa el numero " << i << ":";
         cin >> n;
         parcial+=n;
     }
